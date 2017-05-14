@@ -3,7 +3,7 @@ html{
 }
 *{
 	background-color: white;
-	font-family: 'open sans',sans-serif;
+	font-family: 'Montserrat',sans-serif;
 }
 body{
 	padding-right: 10%;
@@ -169,4 +169,18 @@ button{
 }
 .c6{
 	background-color: #673ab7;
+}
+.logo{
+	width: 100px;
+	padding: 10px;
+	color: #64B5F6;
+	display: flex;
+ -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+          text-align: center;
 }
