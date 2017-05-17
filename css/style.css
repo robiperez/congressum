@@ -12,7 +12,7 @@ body{
 a{
 	color: #999;
 	text-decoration: none;
-	transition: 0.5s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 a:hover{
 	color: black;
@@ -170,7 +170,7 @@ button{
 .c6{
 	background-color: #673ab7;
 }
-.logo{
+.logoimg{
 	width: 100px;
 	padding: 10px;
 	color: #64B5F6;
@@ -183,4 +183,22 @@ button{
       -ms-flex-flow: column;
           flex-flow: column;
           text-align: center;
+}
+.logotxt{
+	color: #64B5F6;
+	font-size: 80px;
+	
+}
+.navigation {
+  text-align: left;
+	
+}
+
+.navigation ul {
+	list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0px 15px 15px 15px;
 }
