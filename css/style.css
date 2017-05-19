@@ -171,34 +171,35 @@ button{
 	background-color: #673ab7;
 }
 .logoimg{
-	width: 100px;
-	padding: 10px;
-	color: #64B5F6;
-	display: flex;
- -webkit-justify-content: center;
-          justify-content: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-flex-flow: column;
-      -ms-flex-flow: column;
-          flex-flow: column;
-          text-align: center;
+	width: 490px;
+	height: auto;
 }
 .logotxt{
 	color: #64B5F6;
-	font-size: 80px;
+	font-size:70px;
 	
 }
+.logosubtext{
+	letter-spacing:13px;
+	color: #64B5F6;
+}
 .navigation {
-  text-align: left;
-	
+  text-align: left;	
 }
 
 .navigation ul {
 	list-style: none;
 }
-
 .navigation ul li {
   display: inline-block;
   margin: 0px 15px 15px 15px;
 }
+.navigation ul li a {
+	text-decoration: none;
+	padding-bottom: 3px;
+	transition: ease-in-out 0.3s;
+}
+.navigation ul li a:hover{
+	border-bottom: solid #000;
+}
+
